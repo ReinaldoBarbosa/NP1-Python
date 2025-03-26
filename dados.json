@@ -1,41 +1,6 @@
 {
     "Usuario": [
-        {
-            "nome": "Reinaldo",
-            "senha": "123"
-        },
-        {
-            "nome": "Jorge",
-            "senha": "91abd06a3564008b8126f21a9e689adc4893ed1948bde38e33bd60b9028435da"
-        },
-        {
-            "nome": "Paulinho",
-            "senha": "457b5a99f3413201b5114110d0e67d04a938bbc016b079425569789e7f1f3dbf"
-        },
-        {
-            "nome": "Mary",
-            "senha": "1e876eda7084e6a64313a08cfa0a208fb71c38546015fc820b99d3adb1dbf5f5"
-        },
-        {
-            "nome": "Professor Paulo",
-            "senha": "44d600279785a32c4962ddad23f938fd2b7203174d194006fa0d3107369aa02c",
-            "status": "Professor"
-        },
-        {
-            "nome": "Wesley",
-            "senha": "042d8be6b4841114b31af26173ab6fa26917e10b31fb0bceacb7d34123b920b8",
-            "status": "Aluno"
-        },
-        {
-            "nome": "Naty",
-            "senha": "1ded9b64958fe4efb9ef4bd3ff3677f50da59fcde1a7db6f6bec60b93834cd45",
-            "status": "Aluno"
-        },
-        {
-            "nome": "Luiz",
-            "senha": "a7a876967db3802b99c1b74cebc4265d51eb0a6e2e80985f21669439a7f654fc",
-            "status": "Professor"
-        }
+        
     ],
     "Cursos": [
         {
@@ -116,32 +81,6 @@
                     "resposta": "alternativa_b"
                 }
             ]
-        },
-        {
-            "nome": "Segurança da informação ",
-            "conteudo": "A segurança da informação envolve práticas e medidas para proteger dados e sistemas contra acessos não autorizados, roubo, corrupção e danos. Em um mundo digitalizado, garantir a proteção das informações é essencial para manter a confiança e a continuidade dos negócios. A segurança da informação é baseada em três pilares: confidencialidade, integridade e disponibilidade, que asseguram que os dados sejam acessados apenas por pessoas autorizadas, permaneçam inalterados e estejam sempre acessíveis quando necessário.",
-            "questoes": [
-                {
-                    "enunciado": "",
-                    "alternativa_a": "",
-                    "alternativa_b": "",
-                    "alternativa_c": "",
-                    "resposta": ""
-                }
-            ]
-        },
-        {
-            "nome": "Segurança",
-            "conteudo": "A segurança da informação envolve práticas e medidas para proteger dados e sistemas contra acessos não autorizados, roubo, corrupção e danos. Em um mundo digitalizado, garantir a proteção das informações é essencial para manter a confiança e a continuidade dos negócios. A segurança da informação é baseada em três pilares: confidencialidade, integridade e disponibilidade, que asseguram que os dados sejam acessados apenas por pessoas autorizadas, permaneçam inalterados e estejam sempre acessíveis quando necessário.",
-            "questoes": [
-                {
-                    "enunciado": "teste dnv",
-                    "alternativa_a": "a",
-                    "alternativa_b": "b",
-                    "alternativa_c": "c",
-                    "resposta": "alternativa_a"
-                }
-            ]
-        }
+        }    
     ]
 }
