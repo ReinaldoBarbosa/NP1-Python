@@ -1,0 +1,147 @@
+{
+    "Usuario": [
+        {
+            "nome": "Reinaldo",
+            "senha": "123"
+        },
+        {
+            "nome": "Jorge",
+            "senha": "91abd06a3564008b8126f21a9e689adc4893ed1948bde38e33bd60b9028435da"
+        },
+        {
+            "nome": "Paulinho",
+            "senha": "457b5a99f3413201b5114110d0e67d04a938bbc016b079425569789e7f1f3dbf"
+        },
+        {
+            "nome": "Mary",
+            "senha": "1e876eda7084e6a64313a08cfa0a208fb71c38546015fc820b99d3adb1dbf5f5"
+        },
+        {
+            "nome": "Professor Paulo",
+            "senha": "44d600279785a32c4962ddad23f938fd2b7203174d194006fa0d3107369aa02c",
+            "status": "Professor"
+        },
+        {
+            "nome": "Wesley",
+            "senha": "042d8be6b4841114b31af26173ab6fa26917e10b31fb0bceacb7d34123b920b8",
+            "status": "Aluno"
+        },
+        {
+            "nome": "Naty",
+            "senha": "1ded9b64958fe4efb9ef4bd3ff3677f50da59fcde1a7db6f6bec60b93834cd45",
+            "status": "Aluno"
+        },
+        {
+            "nome": "Luiz",
+            "senha": "a7a876967db3802b99c1b74cebc4265d51eb0a6e2e80985f21669439a7f654fc",
+            "status": "Professor"
+        }
+    ],
+    "Cursos": [
+        {
+            "nome": "Fundamentos de Python",
+            "conteudo": "A introdução à programação é o primeiro passo para entender como os computadores funcionam e como podemos interagir com eles para resolver problemas. Inicialmente, é comum encontrar dificuldades com as sintaxes das linguagens, mas com o tempo, o aprendizado se torna mais natural. Os conceitos fundamentais, como variáveis, operadores, loops e condicionais, são essenciais para criar algoritmos e são aplicados em diversas linguagens de programação, como Python e C++. À medida que o estudante avança, explora tópicos mais complexos, como estruturas de dados e funções, e a prática constante é crucial para aprimorar a habilidade. A programação oferece diversas possibilidades e é a base para o desenvolvimento de aplicativos, sites e soluções digitais.",
+            "questoes": [
+                {
+                    "enunciado": "Qual é o principal benefício de aprender os conceitos fundamentais da programação, como variáveis, operadores, loops e condicionais?",
+                    "alternativa_a": "a) Eles permitem criar algoritmos que podem ser aplicados em diversas linguagens de programação.",
+                    "alternativa_b": "b) Eles eliminam a necessidade de prática constante durante o aprendizado.",
+                    "alternativa_c": "c) Eles garantem que todas as dificuldades iniciais com sintaxes sejam completamente evitadas.",
+                    "resposta": "alternativa_a"
+                },
+                {
+                    "enunciado": "Qual dos seguintes conceitos fundamentais da programação é responsável por armazenar valores que podem ser utilizados e modificados ao longo do código?",
+                    "alternativa_a": "a) Loops",
+                    "alternativa_b": "b) Variáveis",
+                    "alternativa_c": "c) Operadores",
+                    "resposta": "alternativa_b"
+                },
+                {
+                    "enunciado": "Qual das linguagens de programação a seguir é mencionada no texto como uma opção para aprender os conceitos básicos da programação?",
+                    "alternativa_a": "a) JavaScript",
+                    "alternativa_b": "b) Python",
+                    "alternativa_c": "c) Ruby",
+                    "resposta": "alternativa_b"
+                }
+            ]
+        },
+        {
+            "nome": "Algoritmos de Ordenação",
+            "questoes": [
+                {
+                    "enunciado": "Qual algoritmo de ordenação é mais eficiente para listas grandes?",
+                    "alternativa_a": "a) Bubble Sort",
+                    "alternativa_b": "b) Merge Sort",
+                    "alternativa_c": "c) Selection Sort",
+                    "resposta": "alternativa_b"
+                },
+                {
+                    "enunciado": "O que o algoritmo de ordenação 'Bubble Sort' faz?",
+                    "alternativa_a": "a) Ordena os elementos através de troca contínua entre vizinhos",
+                    "alternativa_b": "b) Ordena dividindo a lista em partes menores",
+                    "alternativa_c": "c) Ordena por inserção contínua",
+                    "resposta": "alternativa_a"
+                },
+                {
+                    "enunciado": "Qual é a complexidade temporal do algoritmo 'Quick Sort' no pior caso?",
+                    "alternativa_a": "a) O(n)",
+                    "alternativa_b": "b) O(n log n)",
+                    "alternativa_c": "c) O(n²)",
+                    "resposta": "alternativa_c"
+                }
+            ]
+        },
+        {
+            "nome": "Banco de Dados com SQL",
+            "questoes": [
+                {
+                    "enunciado": "O que faz o comando SQL SELECT * FROM tabela?",
+                    "alternativa_a": "a) Exclui todos os dados da tabela",
+                    "alternativa_b": "b) Atualiza os dados da tabela",
+                    "alternativa_c": "c) Exibe todos os dados da tabela",
+                    "resposta": "alternativa_c"
+                },
+                {
+                    "enunciado": "Qual comando SQL é usado para excluir uma linha de uma tabela?",
+                    "alternativa_a": "a) REMOVE",
+                    "alternativa_b": "b) DELETE",
+                    "alternativa_c": "c) DROP",
+                    "resposta": "alternativa_b"
+                },
+                {
+                    "enunciado": "O que faz o comando SQL INSERT INTO tabela (coluna1, coluna2) VALUES (valor1, valor2)?",
+                    "alternativa_a": "a) Modifica os dados existentes na tabela",
+                    "alternativa_b": "b) Insere uma nova linha na tabela",
+                    "alternativa_c": "c) Cria uma nova tabela",
+                    "resposta": "alternativa_b"
+                }
+            ]
+        },
+        {
+            "nome": "Segurança da informação ",
+            "conteudo": "A segurança da informação envolve práticas e medidas para proteger dados e sistemas contra acessos não autorizados, roubo, corrupção e danos. Em um mundo digitalizado, garantir a proteção das informações é essencial para manter a confiança e a continuidade dos negócios. A segurança da informação é baseada em três pilares: confidencialidade, integridade e disponibilidade, que asseguram que os dados sejam acessados apenas por pessoas autorizadas, permaneçam inalterados e estejam sempre acessíveis quando necessário.",
+            "questoes": [
+                {
+                    "enunciado": "",
+                    "alternativa_a": "",
+                    "alternativa_b": "",
+                    "alternativa_c": "",
+                    "resposta": ""
+                }
+            ]
+        },
+        {
+            "nome": "Segurança",
+            "conteudo": "A segurança da informação envolve práticas e medidas para proteger dados e sistemas contra acessos não autorizados, roubo, corrupção e danos. Em um mundo digitalizado, garantir a proteção das informações é essencial para manter a confiança e a continuidade dos negócios. A segurança da informação é baseada em três pilares: confidencialidade, integridade e disponibilidade, que asseguram que os dados sejam acessados apenas por pessoas autorizadas, permaneçam inalterados e estejam sempre acessíveis quando necessário.",
+            "questoes": [
+                {
+                    "enunciado": "teste dnv",
+                    "alternativa_a": "a",
+                    "alternativa_b": "b",
+                    "alternativa_c": "c",
+                    "resposta": "alternativa_a"
+                }
+            ]
+        }
+    ]
+}
